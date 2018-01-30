@@ -5,20 +5,20 @@ Here's some R code I found on https://www.r-bloggers.com/data-on-github-the-easy
 
 NOTE: IMPORTANT. Make sure whenever you're copying the url that its the RAW url. You can find it by clicking the RAW button next to BLAME and HISTORY and then copying that url.
 
-''' R
+``` R
 library(RCurl)
     library(foreign)
     url <- "https://raw.github.com/christophergandrud/Disproportionality_Data/master/Disproportionality.csv"
     disproportionality.data <- getURL(url)                
     disproportionality.data <- read.csv(textConnection(disproportionality.data))
-'''
+```
 
 Below is some code for python you can use as a template. 
 
-''' Python
+``` Python
 import requests
 url = "https://raw.githubusercontent.com/JPMOS/Open_Data/master/data.txt"
 r = requests.get(url)
 text = r.text
 print(text)
-'''
+```
