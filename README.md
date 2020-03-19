@@ -1,5 +1,5 @@
 # DATA
-What I'm trying to do is put all my data on Github so whenever someone is running a script of mine they don't have to download the files themselve, they can simply pull the data from a URL to this repository making my code much more replicable and hopefully saving myself some headaches in the future. 
+What I'm trying to do is put all my data on Github so whenever someone is running a script of mine they don't have to download the files themselves, they can simply pull the data from a URL to this repository making my code more replicable and hopefully saving myself some headaches in the future. 
 
 
 NOTE: IMPORTANT. Make sure whenever you're copying the url that its the RAW url. You can find it by clicking the RAW button next to BLAME and HISTORY and then copying that url.
